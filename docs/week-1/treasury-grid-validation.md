@@ -38,7 +38,7 @@ Run from the repository root:
 
 ```bash
 python scripts/validate_treasury_csv.py
-python -m unittest tests.test_treasury_csv
+python -m unittest discover -s tests -p 'test_*.py'
 ```
 
 The validator checks:
