@@ -20,7 +20,7 @@ Documentation:
 
 **Evidence note:** The Week 1 documents currently define a proposed information architecture and typography specification. A limited official Treasury par-yield sample and source audit have now been added. It supports initial checks of maturity-grid structure and numerical formatting, but it is not a security-level bond dataset and does not complete validation of the proposed P0–P3 hierarchy. The typography scale still requires final 1080p legibility validation.
 
-## Planned technical direction
+## Week 1 dataset validation\n\n- [Treasury dataset audit](docs/week-1/treasury-dataset-audit.md)\n- [Grid validation results and test instructions](docs/week-1/treasury-grid-validation.md)\n- Run checks with `python scripts/validate_treasury_csv.py` and `python -m unittest discover -s tests -p 'test_*.py'`.\n\n## Planned technical direction
 
 The software implementation is planned to use:
 - React + TypeScript + Vite for the dashboard frontend.
@@ -36,7 +36,9 @@ These are planned implementation choices; the application scaffold and live data
 - [x] Add Week 1 typography system specification.
 - [x] Add a limited official Treasury yield-curve sample (`data/treasury/`) and its audit (`docs/week-1/treasury-dataset-audit.md`).
 - [x] Add a limited official Treasury yield-curve sample and document its scope / data-quality findings.
+- [x] Add repeatable CSV validation for maturity order, dates, precision, and missing-versus-zero behavior (`scripts/validate_treasury_csv.py`).
 - [ ] Validate the hierarchy against a broader security-level bond-market dataset.
+- [ ] Review rendered 1080p typography and contrast in the actual dashboard.
 - [ ] Complete small-size numerical legibility and contrast checks.
 - [ ] Week 2: define progressive disclosure rules and build dense reusable data-grid components.
 - [ ] Mid-project review: validate 500+ data points on a 1080p display and test large / null values.
