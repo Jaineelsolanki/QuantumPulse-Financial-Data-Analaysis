@@ -35,3 +35,24 @@ This dataset is suitable for validating dense numerical typography, maturity-gri
 
 ## Reproduction note
 The CSV is a manually transcribed, limited sample from the official Treasury HTML table for the dates listed above. It is not the complete 2026 archive or a direct automated feed download. Verify values against the linked Treasury source before production use.
+
+## Official-source verification record
+
+- Verification date: 14 November 2026
+- Official publisher: U.S. Department of the Treasury
+- Official series: Daily Treasury Par Yield Curve Rates
+- Official November 2026 table: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value_month=202611&type=daily_treasury_yield_curve
+- Official 2026 table: https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve
+- Methodology: https://home.treasury.gov/policy-issues/financing-the-government/interest-rate-statistics/
+- Comparison scope: 9 CSV dates × 14 maturity fields = 126 populated values.
+- Result: 126 of 126 values matched the corresponding Treasury date and maturity; 0 mismatches identified.
+- Dates checked: 2026-11-02, 2026-11-03, 2026-11-04, 2026-11-05, 2026-11-06, 2026-11-09, 2026-11-10, 2026-11-12, and 2026-11-13.
+- Maturities checked, in CSV order: 1 month, 1.5 months, 2 months, 3 months, 4 months, 6 months, 1 year, 2 years, 3 years, 5 years, 7 years, 10 years, 20 years, and 30 years.
+- The 2026-11-11 row remains absent. No value was interpolated, inferred, or added.
+- No unavailable value or mismatch was identified within the 126 populated cells in the listed nine dates.
+
+### Verification boundary
+
+This record documents a value-by-value comparison against the official Treasury table. It is separate from structural CSV validation and automated unit-test execution. A successful source comparison does not prove that the Python validator or unit tests were run; record those results only when an actual execution log is available.
+
+The CSV remains a manually captured sample rather than an automated Treasury feed. Recheck the source before production use because Treasury may revise or update published data.
