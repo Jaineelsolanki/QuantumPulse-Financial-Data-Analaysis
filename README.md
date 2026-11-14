@@ -18,7 +18,7 @@ Documentation:
 - [Financial data hierarchy](docs/week-1/data-hierarchy.md)
 - [Numerical typography system](docs/week-1/typography-system.md)
 
-**Evidence note:** The Week 1 documents currently define a proposed information architecture and typography specification. A representative source dataset and completed user validation have not yet been added, so the hierarchy is not presented as a completed audit of real market data. The typography scale still requires final 1080p legibility validation.
+**Evidence note:** The Week 1 documents currently define a proposed information architecture and typography specification. A limited official Treasury par-yield sample and source audit have now been added. It supports initial checks of maturity-grid structure and numerical formatting, but it is not a security-level bond dataset and does not complete validation of the proposed P0–P3 hierarchy. The typography scale still requires final 1080p legibility validation.
 
 ## Planned technical direction
 
@@ -34,7 +34,9 @@ These are planned implementation choices; the application scaffold and live data
 
 - [x] Add Week 1 data hierarchy proposal.
 - [x] Add Week 1 typography system specification.
-- [ ] Validate the hierarchy against a representative bond-market dataset.
+- [x] Add a limited official Treasury yield-curve sample (`data/treasury/`) and its audit (`docs/week-1/treasury-dataset-audit.md`).
+- [x] Add a limited official Treasury yield-curve sample and document its scope / data-quality findings.
+- [ ] Validate the hierarchy against a broader security-level bond-market dataset.
 - [ ] Complete small-size numerical legibility and contrast checks.
 - [ ] Week 2: define progressive disclosure rules and build dense reusable data-grid components.
 - [ ] Mid-project review: validate 500+ data points on a 1080p display and test large / null values.
