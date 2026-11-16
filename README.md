@@ -16,6 +16,8 @@ This repository is the project documentation and research record. It is not a so
 ## Week 1 — Data hierarchy and numerical typography
 
 - [Financial data hierarchy](docs/week-1/data-hierarchy.md)
+- [Day 2 data-priority matrix](docs/week-1/day-2-data-priority-matrix.md)
+- [Day 2 progress log](docs/week-1/day-2-progress-log.md)
 - [Numerical typography system](docs/week-1/typography-system.md)
 - [Treasury dataset audit](docs/week-1/treasury-dataset-audit.md)
 - [Treasury grid validation](docs/week-1/treasury-grid-validation.md)
