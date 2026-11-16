@@ -29,6 +29,7 @@ Day 1 deliverables:
 - [Progressive Disclosure Research](docs/week-2/day-1-progressive-disclosure-research.md)
 - [Visibility & Interaction Rules](docs/week-2/visibility-interaction-rules.md)
 - [Progressive Disclosure Map](docs/week-2/progressive-disclosure-map.md)
+- [Week 2 Day 1 progress log](docs/week-2/day-1-progress-log.md)
 
 Week 2 design work proceeds from the existing project foundation:
 1. Review and confirm default, hover, selected, and expanded information layers.
