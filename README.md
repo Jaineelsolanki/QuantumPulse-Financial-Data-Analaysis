@@ -32,6 +32,7 @@ Day 1 deliverables:
 - [Visibility & Interaction Rules](docs/week-2/visibility-interaction-rules.md)
 - [Progressive Disclosure Map](docs/week-2/progressive-disclosure-map.md)
 - [Week 2 Day 1 progress log](docs/week-2/day-1-progress-log.md)
+- [Week 2 Day 2 Progressive Disclosure State Board](docs/week-2/day-2-progressive-disclosure-state-board.md)
 
 Week 2 design work proceeds from the existing project foundation:
 1. Review and confirm default, hover, selected, and expanded information layers.
@@ -50,6 +51,7 @@ Week 2 design work proceeds from the existing project foundation:
 - [x] Draft the visibility and interaction rules.
 - [x] Draft the progressive-disclosure map.
 - [ ] Review Day 1 decisions with Winner and confirm unresolved field / alert definitions.
+- [x] Complete the Week 2 Day 2 Progressive Disclosure State Board in Figma and document the four primary states.
 - [ ] Build reusable Figma data-grid components and variants.
 - [ ] Integrate the components into the dashboard design.
 - [ ] Build the ProtoPie interactive prototype.
